@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Wild-world';
+    src: url('Fonts/wild-world.otf') format('woff2'),
+    url('Fonts/wild-world.otf') format('woff'),
+    url('Fonts/wild-world.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Fonts/Poppins-SemiBold.ttf') format('woff2'),
+    url('Fonts/Poppins-SemiBold.ttf') format('woff'),
+    url('Fonts/Poppins-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('Fonts/BebasNeue-Regular.ttf') format('woff2'),
+    url('Fonts/BebasNeue-Regular.ttf') format('woff'),
+    url('Fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #29292b;
+    color: ghostwhite;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background: radial-gradient(circle, blue, blue, pink);
+}
+
+.name {
+    font-family: Wild-world;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px white;
+    padding-bottom: 8px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.pic img{
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar {
+    display: inline-flex;
+    justify-content: center;
+    background-color: black;
+    padding: 5px 0;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.navlink {
+    font-family: BebasNeue;
+    color: #b000c7;
+    margin: 0px 15px;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    border-radius: 6px;
+    box-shadow: 0 0 0 5px #b000c7;
+}
+
+
+.pagecontent {
+    font-family: Poppins;
+    background-color: black;
+    box-shadow: 0 0 0 5px white;
+    position: relative;
+    padding: 20px;
+    margin: 20px 40px;
+    border-radius: 6px;
+    text-shadow: 1px 1px 2px white;
+}
+
+
+.ContentImages img {
+    width: auto;
+    height: auto;
+    border-radius: 6px;
+    max-width: 100%;
+}
+
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+
+
+
