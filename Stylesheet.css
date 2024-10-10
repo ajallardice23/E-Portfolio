@@ -29,8 +29,23 @@ body {
     width: 100%;
     height: 100%;
     justify-content: center;
-    background: radial-gradient(circle, blue, blue, pink);
+    background: linear-gradient(270deg, blue, #75aaff, #e175ff, #e496fa);
+    background-size: 200% 200%;
+    animation: movingBackground 25s ease infinite;
 }
+
+@keyframes movingBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 
 .name {
     font-family: Wild-world;
