@@ -117,6 +117,23 @@ body {
     max-width: 100%;
 }
 
+.cvdownload {
+    display: inline-block;
+    padding: 12px 18px;
+    margin-top: 18px;
+    background-color: White;
+    color: Black;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+}
+
+.cvdownload:hover {
+    background-color: #45a049;
+}
+
 
 footer {
     background-color: #f1f1f1;
@@ -126,6 +143,7 @@ footer {
     padding: 4px;
     border-radius: 6px;
 }
+
 
 
 
